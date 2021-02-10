@@ -15,7 +15,7 @@ You need to push these lines into `.m2/settings.xml profile` or `pom.xml`:
 ```xml
 <repositories>
     <repository>
-        <id>vanioinformatika-releases</id>
+        <id>github</id>
         <name>GitHub Vanio Informatika Apache Maven Packages</name>
         <url>https://maven.pkg.github.com/vanioinformatika/maven-releases</url>
         <snapshots>
@@ -28,7 +28,7 @@ You need to push these lines into `.m2/settings.xml profile` or `pom.xml`:
         <snapshots>
             <enabled>false</enabled>
         </snapshots>
-        <id>vanioinformatika-releases</id>
+        <id>github</id>
         <name>GitHub Vanio Informatika Apache Maven Packages for Plugins</name>
         <url>https://maven.pkg.github.com/vanioinformatika/maven-releases</url>
     </pluginRepository>
@@ -47,7 +47,7 @@ You need to create a PAT ( https://github.com/settings/tokens ) at least `read:p
 ```xml
 <servers>
     <server>
-        <id>vanioinformatika-releases</id>
+        <id>github</id>
         <username>your GitHub username</username>
         <password>your PAT</password>
     </server>
